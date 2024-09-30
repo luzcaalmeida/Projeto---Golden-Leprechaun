@@ -1,0 +1,11 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+  --font-family: "Fredoka", sans-serif;
+  --font-logo: "Dela Gothic One", sans-serif;
+
+  --txt-link: 500 2.21em/6.25em var(--font-family); /* 100px / 16px */
+  --txt-logo: 400 5.12em/1.2em var(--font-logo); /* 94px / 16px */
+}

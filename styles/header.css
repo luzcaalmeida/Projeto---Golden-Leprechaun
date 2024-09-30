@@ -1,0 +1,51 @@
+.logo-place {
+  padding-top: 2.5em; /* 40px / 16px */
+  margin: auto;
+  width: 45.625em; /* 730px / 16px */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.625em; /* 10px / 16px */
+}
+
+h1 {
+  text-align: center;
+  font: var(--txt-logo);
+  color: rgb(252, 247, 219);
+
+  text-shadow: 0 0 0.05625em rgba(255, 202, 57, 0.5); /* 9px / 16px */
+
+  animation: pulse 4s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    text-shadow: 0 0 0.0625em rgba(255, 202, 57, 0.5); /* 10px / 16px */
+  }
+
+  50% {
+    text-shadow: 0 0 1em rgba(255, 202, 57, 1); /* 16px / 16px */
+  }
+
+  100% {
+    text-shadow: 0 0 0.0625em rgba(255, 202, 57, 0.5); /* 10px / 16px */
+  }
+}
+
+.img-rotate {
+  width: 18.75em; /* 300px / 16px */
+  height: 18.75em; /* 300px / 16px */
+  rotate: 0deg;
+  animation: rotate 7s linear infinite;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
